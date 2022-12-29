@@ -15,7 +15,7 @@ FileCreateDir % path
     CurrentTime := A_Hour "-" A_Min "-" A_Sec "." A_MSec
     Screenshot(path "\" CurrentDate "_" CurrentTime ".png")
 Return
-;shift+PrintScreen: 
+;shift+PrintScreen: screenshot from the window
 +PrintScreen::
     CurrentDate := A_YYYY "-" A_MM "-" A_DD
     CurrentTime := A_Hour "-" A_Min "-" A_Sec "." A_MSec
